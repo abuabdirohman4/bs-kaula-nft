@@ -1,0 +1,19 @@
+.card-featured{
+  background-size: cover;
+  width: 600px;
+  height: 600px;
+}
+.featured-1 {
+  background-image: url("/img/img-1.png");
+}
+.featured-2{
+  background-image: url("/img/img-2.png");
+}
+.justify-left {
+  text-align: justify;
+  text-align-last: left;
+}
+.break-testi{
+  overflow-wrap: break-word;
+  inline-size: 26rem;
+}
