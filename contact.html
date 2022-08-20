@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body style="overflow-x: hidden;">
+<body>
   <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid my-2 mx-5">
       <img src="/img/logo.svg" width="" alt="">
@@ -21,10 +21,10 @@
       <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/home.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="/home.html">Home</a>
           </li>
           <li class="nav-item mx-4">
-            <a class="nav-link active" href="/about.html">Category</a>
+            <a class="nav-link" href="/about.html">Category</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/contact.html">Contact Us</a>
@@ -51,96 +51,38 @@
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/img/hero-about.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block ms-2" style="left:5%; right:auto">
-          <h2>NFT</h2>
+        <img src="/img/hero-contact.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block ms-2 my" style="left:5%; right:auto">
+          <h1>CONTACT US</h1>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container-fluid mt-5 d-flex justify-content-around">
-    <div class="row">
+  <div class="container mt-5">
+    <h3>We would love to hear from you.</h3>
+    <p>If you have any query or any type of suggestion, you can contact us here. We would love to hear from you.</p>
+    <form class="row g-3 mt-4">
+      <div class="col-lg-3">
+        <label for="inputName" class="form-label">Name</label>
+        <input type="text" class="form-control" id="inputName">
+      </div>
+      <div class="col-lg-3">
+        <label for="inputEmail" class="form-label">Email</label>
+        <input type="email" class="form-control" id="inputEmail">
+      </div>
+      <div class="col-lg-6"></div>
       <div class="col-lg-6">
-        <div class="card text-bg-dark card-featured featured-1">
-          <button class="card-title btn btn-light px-5 py-3 rounded-pill mt-auto w-50 mx-auto mb-4">Buy Now</button>
-        </div>
+        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
       </div>
-      <div class="col-lg-6">
-        <div class="card text-bg-dark card-featured featured-2">
-          <button class="card-title btn btn-light px-5 py-3 rounded-pill mt-auto w-50 mx-auto mb-4">Buy Now</button>
-        </div>
+      <div class="col-12">
+        <button type="button" class="btn kaula-bg-primary text-light py-3 px-4 rounded-pill mt-3">SEND MESSAGE</button>
       </div>
-    </div>
+    </form>
   </div>
 
-  <div class="container-fluid mt-5 text-center">
-    <h3>NFT</h3>
-    <div class="row">
-      <div class="card mb-3 col-lg-3 border border-0">
-        <img src="/img/product-1.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Harrington</h5>
-        </div>
-      </div>
-      <div class="card mb-3 col-lg-3 border border-0">
-        <img src="/img/product-2.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Bomber</h5>
-        </div>
-      </div>
-      <div class="card mb-3 col-lg-3 border border-0">
-        <img src="/img/product-3.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Portham M-65</h5>
-        </div>
-      </div>
-      <div class="card mb-3 col-lg-3 border border-0">
-        <img src="/img/product-4.png" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Dalford</h5>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid mt-5 text-center">
-    <h3>Testimonials</h3>
-    <div class="d-flex justify-content-center my-5">
-      <div class="col-lg-3">
-      </div>
-      <div class="col-lg-5">
-        <img src="/icons/quotes.svg" alt="" class="d-flex justify-content-start">
-        <p class="justify-left break-testi">Once we ordered some accessories items and we got the products delivered in
-          our doorstep, the customer
-          support was super helpful and they answered all my queries.</p>
-        <p class="justify-left mt-5">Stacy</p>
-      </div>
-    </div>
-    <div class="d-flex justify-content-center my-5">
-      <div class="col-lg-3">
-      </div>
-      <div class="col-lg-5">
-        <img src="/icons/quotes.svg" alt="" class="d-flex justify-content-start">
-        <p class="justify-left break-testi">I ordered 5 shirts from them and received them in no time. The customer
-          support was awesome!.</p>
-        <p class="justify-left mt-5">Tiffany</p>
-      </div>
-    </div>
-    <div class="d-flex justify-content-center my-5">
-      <div class="col-lg-3">
-        <img src="/img/img-testi.svg" alt="" width="180">
-      </div>
-      <div class="col-lg-5">
-        <img src="/icons/quotes.svg" alt="" class="d-flex justify-content-start">
-        <p class="justify-left break-testi">I got a wrong shirt so I contacted them and they happily offered me a
-          refund. I will surely shop from them again.</p>
-        <p class="justify-left mt-5">James</p>
-      </div>
-    </div>
-  </div>
-
-  <footer class="container-fluid pt-5" style="background-color: #FBFBFB;">
+  <footer class="container-fluid pt-5 mt-5" style="background-color: #FBFBFB;">
     <div class="d-flex justify-content-between">
       <div class="col-lg-3 ms-5">
         <p class="text-uppercase">Company info</p>
