@@ -23,3 +23,7 @@ body {
 .kaula-bg-primary{
   background-color: #024E82;
 }
+
+.product:hover{
+  transform: scale(1.1);
+}
